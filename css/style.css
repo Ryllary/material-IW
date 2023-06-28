@@ -176,3 +176,10 @@ h3{
       tr:nth-child(even) {
         background-color: #D9C8A9;
       }
+
+      img{ float: right;
+        padding-right: 2.0;
+        padding-left: 1.5;
+
+    
+      }
