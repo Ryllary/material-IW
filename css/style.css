@@ -92,27 +92,12 @@ h3{
     box-shadow: #8C0303;
 }
 
-.img2{
+.img{
     border: 2px solid #400101;
     border-radius: 12px;
     padding: 5px;
-
-}
-.img3{
-    border: 2px solid #400101;
-    border-radius: 12px;
-    padding: 5px;
-}
-
-.img4{
-    border: 2px solid #400101;
-    border-radius: 12px;
-    padding: 5px;
-}
-.img5{
-    border: 2px solid #400101;
-    border-radius: 12px;
-    padding: 5px;
+    box-shadow: #8C0303;
+    float: right;
 }
 
 .headerfont{
@@ -178,11 +163,4 @@ h3{
       
       tr:nth-child(even) {
         background-color: #D9C8A9;
-      }
-
-      img{ float: right;
-        padding-right: 2.0;
-        padding-left: 1.5;
-
-    
       }
