@@ -29,14 +29,17 @@ header{
     width: 20%;
 }
 
-.itens_menu ul li{
+.itens_menu {
     position: absolute;
-    right: 15%;
+    right: -1.5%;
     top: 30%;
     width: 70%;
-    display: inline;
+    padding-left: 20%;
 }
+.itens_menu ul li{
+display: inline;
 
+}
 nav{
     color: black;
     text-align: center;
