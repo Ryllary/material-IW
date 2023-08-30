@@ -19,16 +19,22 @@ h1{
 header{
     width: 100%;
     background-image:linear-gradient(to bottom right, #400101, #610000, #3a0000);
+    position: fixed;
+    top:0;
+    left: 0;
 
 }
 
-.logo{
-    color: black;
-    text-align: center;
-    font-size: 1.4em;
-}
 .logo-topo{
     width: 20%;
+}
+
+.itens_menu ul li{
+    position: absolute;
+    right: 15%;
+    top: 30%;
+    width: 70%;
+    display: inline;
 }
 
 nav{
@@ -45,9 +51,7 @@ nav{
     background-color:   #D99D8F;
     width: 80%;
     margin: auto;
-    font-family: 'Karla', sans-serif;
-
-    
+    font-family: 'Karla', sans-serif;  
 
 }
 
