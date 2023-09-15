@@ -25,7 +25,7 @@ header{
 
 }
 
-.logo-topo{
+.logo{
     width: 20%;
 }
 
@@ -45,10 +45,25 @@ nav{
     text-align: center;
     font-size: 1.4em;
 }
-@media screen and (max-width: 600px) {
 
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: row;
+    }
+    .logo{
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        text-align: left;
+        width: 30%;
+    }
+
+    .links_menu {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
-@media screen and (min-widht: 601px) {
+@media screen and (min-width: 601px) {
     header{
         flex-direction: row;
     }
@@ -56,13 +71,19 @@ nav{
         padding-top: 0.5%;
         padding-bottom: 0.5%;
         text-align: left;
-        width: 120%;
+        width: 20%;
     }
     .itens_menu{
         position: absolute;
         right: 3%;
-        top: 30%;
+        top: 40%;
         width: 70%;
+
+    }
+    
+    .itens_menu {
+        display: inline;
+
     }
 }
 .banner{
@@ -179,3 +200,57 @@ h3{
       tr:nth-child(even) {
         background-color: #D9C8A9;
       }
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    td {
+        border: 1px solid #D9C8A9;
+        text-align: left;
+        padding: 8px;
+        font-family: 'Karla', sans-serif;
+        font-size: 130%;
+    }
+    input[type=text], select, textarea, input[type=tel], input[type=email] {
+        width: 90%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        resize: vertical;
+        font-family: 'Karla'
+      }
+     
+      input[type=submit] {
+        background-color: #3a0000;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: right;
+      }
+      
+      input[type=submit]:hover {
+        background-color: black;
+        font-weight: bolder;
+       
+      }
+      
+      .buttonform{
+        margin-top: 3%;
+      }
+      
+      .borderform{
+        background-color: rgba(128, 128, 128, 0.3) ;
+        padding: 20px;
+        border-radius: 25px;
+        margin-top: 1%;
+        box-sizing: border-box;
+        width: 80%;
+        margin-left: 10%;
+     
+      }
+
+      
